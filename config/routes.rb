@@ -1,14 +1,16 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+  root 'pages#quote'
   get 'pages/index'
 
   get 'pages/about'
 
-  get 'pages/services'
+  get 'pages/services', to: redirect('pages/about')
 
   get 'pages/contact'
 
   get 'pages/faq'
+
+  get 'pages/quote'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
