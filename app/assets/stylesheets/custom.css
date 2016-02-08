@@ -16,7 +16,7 @@ body {
 }
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 10px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -27,3 +27,12 @@ body > .container {
   padding-left: 15px;
 }
 
+.btn-primary {
+  background-color: #FF7A00;
+  border-color: #FF7A00;
+}
+
+.btn-primary:hover {
+  background-color: #FF912C;
+  border-color: #FF912C;
+}
